@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
-# While loop for Best School
+# While script
 
-i=o
-while [ "$i" -le 9 ]
+count=0
+
+while [ $count -lt 10 ]
 do
-        echo "Best School"
-        i=$(( i + 1))
+  echo "Best School"
+  (( count++ ))
 done 
