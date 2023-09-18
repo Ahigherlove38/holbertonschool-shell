@@ -2,7 +2,7 @@
 # While loop for Best School
 
 i=o
-while [ $i -le 9 ]
+while [ "$i" -le 9 ]
 do
         echo "Best School"
         i=$(( i + 1))
