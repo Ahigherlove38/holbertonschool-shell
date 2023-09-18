@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # While loop and if statement
-#  On the 9th iteration, displays "Hi" before "Best School".
 
 count=0
 
