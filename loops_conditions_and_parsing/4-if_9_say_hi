@@ -1,16 +1,14 @@
 #!/usr/bin/env bash
 # While loop and if statement
 
-i=o	
-while [ $i -le 9 ]
+count=0 
+
+while [ $count -lt 10 ]
 do
-echo "Best School"
-i=$(( i +  1 )) 
-
-if [ $i -eq 9 
-then
-        echo "Hi"
-
-
-fi 
-done 
+  if [$count -eq 9 ]
+  then
+    echo "Hi"
+  fi
+  echo "Best School"
+  (( count++ ))
+done   
